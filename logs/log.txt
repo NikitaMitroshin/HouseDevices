@@ -1,0 +1,102 @@
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Total power for Home is 1350
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object TvSet
+ERROR - Logic exception!!!
+by.mitroshin.homedev.exception.LogicException: power must be more than 0
+	at by.mitroshin.homedev.entity.HomeDevice.<init>(HomeDevice.java:62)
+	at by.mitroshin.homedev.entity.entertaiment.EntertaimentDevice.<init>(EntertaimentDevice.java:14)
+	at by.mitroshin.homedev.entity.entertaiment.tvset.TvSet.<init>(TvSet.java:15)
+	at by.mitroshin.homedev.run.HomeRunner.main(HomeRunner.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Total power for Home is 1350
+INFO - Devices between 120 and 260 power is [Iron{manufacturer = BOSH, power = 200, model = AVC12, turnedOn = false, appointment = CLOTHES, soleType = ALUMNIUM}, DVDPlayer{manufacturer = PANASONIC, power = 250, model = as-213, turnedOn = false, appointment = ENTERTAIMENT, colour = BLACK}, TvSet{manufacturer = SONY, power = 400, model = en15, turnedOn = false, appointment = ENTERTAIMENT, displayType = LCD}, Washer{manufacturer = PHILIPS, power = 500, model = qe2455, turnedOn = false, appointment = CLOTHES, loadingType = FRONT}]
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Total power for Home is 1350
+INFO - Power of IronAVC12 is between 120 and 260
+INFO - Power of DVDPlayeras-213 is between 120 and 260
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Total power for Home is 1350
+INFO - Power of Iron BOSH AVC12 is between 120 and 260
+INFO - Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+INFO - Creating object Iron
+INFO - Object Iron created
+INFO - Creating object Washer
+INFO - Object Washer created
+INFO - Creating object DVDPlayer
+INFO - Object DVDPlayer created
+INFO - Creating object TvSet
+INFO - Object TvSet created
+INFO - Creating object Home
+INFO - Object Home created
+INFO - Total power for Home is 1350
+INFO - Power of Iron BOSH AVC12 is between 120 and 260
+INFO - Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+INFO - TvSeten15 is turned ON
+INFO - Washerqe2455 is turned ON
