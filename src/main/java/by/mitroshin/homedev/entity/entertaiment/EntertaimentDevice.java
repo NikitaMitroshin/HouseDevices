@@ -1,17 +1,16 @@
 package by.mitroshin.homedev.entity.entertaiment;
 
-import by.mitroshin.homedev.entity.Appointment;
-import by.mitroshin.homedev.entity.HomeDevice;
-import by.mitroshin.homedev.entity.Manufacturer;
-import by.mitroshin.homedev.exception.LogicException;
+import by.mitroshin.homedev.entity.*;
+
+import java.io.IOException;
 
 /**
  * Created by HP M6 on 20.05.2015.
  */
-public class EntertaimentDevice extends HomeDevice {
+public class EntertaimentDevice extends AbstractHomeDevice {
 
-    public EntertaimentDevice(Manufacturer manufacturer, int power, String model) throws LogicException {
-        super(manufacturer, power, model);
+    public EntertaimentDevice(Manufacturer manufacturer, int power, String model, Type type) throws LogicException, IOException {
+        super(manufacturer, power, model, type);
         appointment = Appointment.ENTERTAIMENT;
     }
 

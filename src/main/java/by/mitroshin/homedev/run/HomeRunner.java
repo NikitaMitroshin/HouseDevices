@@ -1,9 +1,7 @@
 package by.mitroshin.homedev.run;
 
-import by.mitroshin.homedev.entity.Home;
-import by.mitroshin.homedev.entity.HomeDevice;
-import by.mitroshin.homedev.entity.Manufacturer;
-import by.mitroshin.homedev.entity.SortByPower;
+import by.mitroshin.homedev.action.DeviceAction;
+import by.mitroshin.homedev.entity.*;
 import by.mitroshin.homedev.entity.clothes.iron.Iron;
 import by.mitroshin.homedev.entity.clothes.iron.SoleType;
 import by.mitroshin.homedev.entity.clothes.washer.LoadingType;
@@ -12,40 +10,49 @@ import by.mitroshin.homedev.entity.entertaiment.dvdplayer.Colour;
 import by.mitroshin.homedev.entity.entertaiment.dvdplayer.DVDPlayer;
 import by.mitroshin.homedev.entity.entertaiment.tvset.DisplayType;
 import by.mitroshin.homedev.entity.entertaiment.tvset.TvSet;
-import by.mitroshin.homedev.exception.LogicException;
-import by.mitroshin.homedev.log.LogRunner;
+import by.mitroshin.homedev.entity.kitchen.cooker.CooktopType;
+import by.mitroshin.homedev.entity.kitchen.microvawe.ControlType;
+import by.mitroshin.homedev.factory.HomeDeviceFactoryVariant;
+import by.mitroshin.homedev.report.Reporter;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 
-import java.util.ArrayList;
-import java.util.Collections;
+
+import java.io.IOException;
+
 
 /**
  * Created by HP M6 on 21.05.2015.
  */
 public class HomeRunner {
+    public final static Logger LOG = Logger.getLogger(HomeRunner.class);
+
+    static{
+        new DOMConfigurator().doConfigure("config/log4j.xml", LogManager.getLoggerRepository());
+        try {
+            Reporter.REPORTER.printReport("\nPROGRAM STARTED\n");
+        } catch (IOException e) {
+            LOG.error("Logic exception!!!", e);
+        }
+    }
+
     public static void main(String[] args) {
         try {
-            Iron iron = new Iron(Manufacturer.BOSH, 200, "AVC12", SoleType.ALUMNIUM);
-            Washer washer = new Washer(Manufacturer.PHILIPS, 500, "qe2455", LoadingType.FRONT);
-            DVDPlayer dvdPlayer = new DVDPlayer(Manufacturer.PANASONIC, 250, "as-213", Colour.BLACK);
-            TvSet tvSet = new TvSet(Manufacturer.SONY, 400, "en15", DisplayType.LCD );
-            washer.turnOn();
-            tvSet.turnOn();
-
-            ArrayList<HomeDevice> devices = new ArrayList<HomeDevice>();
-            devices.add(iron);
-            devices.add(washer);
-            devices.add(dvdPlayer);
-            devices.add(tvSet);
-            Home home = new Home(devices);
-
-            Collections.sort(home.getDevices(), new SortByPower());
-
-            home.countTotalPower();
-            home.getDeviceByPower(120, 260);
-            home.getTurnedOnDevices();
-
+            HomeDeviceFactoryVariant.createIron(Manufacturer.BOSH, 200, "asd12", SoleType.ALUMNIUM);
+            HomeDeviceFactoryVariant.createCooker(Manufacturer.SONY, 500, "VO23", CooktopType.ELECTRIC);
+            HomeDeviceFactoryVariant.createDVDPlayer(Manufacturer.PANASONIC, 100, "AIO42", Colour.BLACK);
+            HomeDeviceFactoryVariant.createMicrowave(Manufacturer.PHILIPS, 600, "mi90", ControlType.AUTO);
+            HomeDeviceFactoryVariant.createTvSet(Manufacturer.SONY, 600, "tvb90", DisplayType.LCD);
+            HomeDeviceFactoryVariant.createWasher(Manufacturer.BOSH, 600, "tvb90", LoadingType.FRONT);
+            Home home = new Home("Party House", HomeDeviceFactoryVariant.HOME_DEVICES);
+            DeviceAction.countTotalPower(home);
+            DeviceAction.getDeviceByPower(home, 120, 230);
+            DeviceAction.getTurnedOnDevices(home);
         } catch (LogicException e) {
-            LogRunner.LOG.error("Logic exception!!!", e);
+            LOG.error("Logic exception!!!", e);
+        } catch (IOException e) {
+            LOG.error("Logic exception!!!", e);
         }
     }
 }

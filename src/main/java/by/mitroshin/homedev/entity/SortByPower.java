@@ -5,11 +5,10 @@ import java.util.Comparator;
 /**
  * Created by HP M6 on 21.05.2015.
  */
-public class SortByPower implements Comparator<HomeDevice> {
+public class SortByPower implements Comparator<AbstractHomeDevice> {
 
     @Override
-    public int compare(HomeDevice o1, HomeDevice o2) {
-
+    public int compare(AbstractHomeDevice o1, AbstractHomeDevice o2) {
         if(o1.getPower() > o2.getPower()) {
             return 1;
         }

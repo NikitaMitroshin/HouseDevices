@@ -1,31 +1,50 @@
 package by.mitroshin.homedev.entity;
 
-import by.mitroshin.homedev.log.LogRunner;
 
+import by.mitroshin.homedev.report.Reporter;
+
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Created by HP M6 on 21.05.2015.
  */
 public class Home {
-    private ArrayList<HomeDevice> devices;
+    private ArrayList<AbstractHomeDevice> devices;
+    private String name;
 
-    public Home(ArrayList<HomeDevice> devices) {
-        LogRunner.LOG.info("Creating object "+getClass().getSimpleName());
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Home(String name, ArrayList<AbstractHomeDevice> devices) throws IOException, LogicException {
+        Reporter.REPORTER.printReport("Creating object " + getClass().getSimpleName());
+        if(name != null && name.length() > 3){
+            this.name = name;
+        }else {
+            throw new LogicException(name + " is incorrect, name length be more than 3");
+        }
         this.devices = devices;
-        LogRunner.LOG.info("Object "+getClass().getSimpleName()+" created");
+        Reporter.REPORTER.printReport("Object " + getClass().getSimpleName() + " created");
     }
 
-    public ArrayList<HomeDevice> getDevices() {
-        return devices;
+    public List<AbstractHomeDevice> getDevices() {
+        return Collections.unmodifiableList(devices);
     }
 
-    public void setDevices(ArrayList<HomeDevice> devices) {
-        this.devices = devices;
-    }
-
-    public void addDevice(HomeDevice device){
+    public void addDevice(AbstractHomeDevice device){
         this.devices.add(device);
+    }
+
+    public void sort(Comparator<? super AbstractHomeDevice> c) {
+        devices.sort(c);
     }
 
     @Override
@@ -36,53 +55,25 @@ public class Home {
         Home home = (Home) o;
 
         if (devices != null ? !devices.equals(home.devices) : home.devices != null) return false;
+        if (name != null ? !name.equals(home.name) : home.name != null) return false;
 
         return true;
     }
 
     @Override
     public int hashCode() {
-        return devices != null ? devices.hashCode() : 0;
+        int result = devices != null ? devices.hashCode() : 0;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        return result;
     }
 
     @Override
     public String toString() {
-        return "Home{" +
-                "devices = " + devices +
-                '}';
+        return getClass().getSimpleName() +
+                "{ name = " + name + ", devices = \n" + devices +
+                "}";
     }
 
-    public int countTotalPower(){;
-        int result = 0;
-        for(HomeDevice homeDevice : devices){
-            result = result + homeDevice.getPower();
-        }
-        LogRunner.LOG.info("Total power for "+getClass().getSimpleName()+" is "+result);
-        return result;
 
-    }
 
-    public ArrayList<HomeDevice> getDeviceByPower(int startValue, int endValue){
-        ArrayList<HomeDevice> result = new ArrayList<HomeDevice>();
-        for(HomeDevice homeDevice : devices){
-            if(homeDevice.getPower()>startValue && homeDevice.getPower() < endValue){
-                result.add(homeDevice);
-                LogRunner.LOG.info("Power of "+homeDevice.getClass().getSimpleName()+" "+homeDevice.getManufacturer()+" "
-                                    +homeDevice.getModel() + " is between " + startValue + " and "+endValue);
-            }
-        }
-        return result;
-    }
-
-    public ArrayList<HomeDevice> getTurnedOnDevices(){
-        ArrayList<HomeDevice> result = new ArrayList<HomeDevice>();
-        for(HomeDevice homeDevice : devices){
-            if(homeDevice.turnedOn){
-                result.add(homeDevice);
-                LogRunner.LOG.info(homeDevice.getClass().getSimpleName()+" "+homeDevice.getManufacturer()+" "+homeDevice.getModel() +
-                                    " is turned ON");
-            }
-        }
-        return result;
-    }
 }
