@@ -2,7 +2,6 @@ package by.mitroshin.homedev.entity.entertaiment.tvset;
 
 import by.mitroshin.homedev.entity.Manufacturer;
 import by.mitroshin.homedev.entity.Name;
-import by.mitroshin.homedev.entity.Type;
 import by.mitroshin.homedev.entity.entertaiment.EntertaimentDevice;
 import by.mitroshin.homedev.entity.LogicException;
 

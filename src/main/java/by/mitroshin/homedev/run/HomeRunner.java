@@ -2,14 +2,10 @@ package by.mitroshin.homedev.run;
 
 import by.mitroshin.homedev.action.DeviceAction;
 import by.mitroshin.homedev.entity.*;
-import by.mitroshin.homedev.entity.clothes.iron.Iron;
 import by.mitroshin.homedev.entity.clothes.iron.SoleType;
 import by.mitroshin.homedev.entity.clothes.washer.LoadingType;
-import by.mitroshin.homedev.entity.clothes.washer.Washer;
 import by.mitroshin.homedev.entity.entertaiment.dvdplayer.Colour;
-import by.mitroshin.homedev.entity.entertaiment.dvdplayer.DVDPlayer;
 import by.mitroshin.homedev.entity.entertaiment.tvset.DisplayType;
-import by.mitroshin.homedev.entity.entertaiment.tvset.TvSet;
 import by.mitroshin.homedev.entity.kitchen.cooker.CooktopType;
 import by.mitroshin.homedev.entity.kitchen.microvawe.ControlType;
 import by.mitroshin.homedev.factory.HomeDeviceFactoryVariant;

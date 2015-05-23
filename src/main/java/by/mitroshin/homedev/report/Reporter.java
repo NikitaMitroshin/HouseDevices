@@ -19,9 +19,6 @@ public class Reporter   {
         writer.write(SPACE);
         writer.write(message + " | TIME: " + new SimpleDateFormat("dd.MM.yy kk:mm:ss").format(System.currentTimeMillis()));
         writer.close();
-
     }
-
-
 
 }
