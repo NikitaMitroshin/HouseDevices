@@ -1,0 +1,819 @@
+
+--------------------
+Creating object Iron
+--------------------
+Object Iron created
+--------------------
+Creating object Washer
+--------------------
+Object Washer created
+--------------------
+Creating object DVDPlayer
+--------------------
+Object DVDPlayer created
+--------------------
+Creating object TvSet
+--------------------
+Object TvSet created
+--------------------
+Creating object Home
+--------------------
+Object Home created
+--------------------
+Total power for Home is 1350
+--------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+--------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+--------------------
+TvSet SONY en15 is turned ON
+--------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object null
+------------------------------
+Object Iron created
+------------------------------
+Creating object null
+------------------------------
+Object Washer created
+------------------------------
+Creating object null
+------------------------------
+Object DVDPlayer created
+------------------------------
+Creating object null
+------------------------------
+Object TvSet created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object null AVC12 created
+------------------------------
+Creating object Washer
+------------------------------
+Object null qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object null as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object null en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object null AVC12 created
+------------------------------
+Creating object Washer
+------------------------------
+Object null qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object null as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object null en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron AVC12 created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH AVC12 is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Creating object Iron
+------------------------------
+Creating object Iron
+------------------------------
+Creating object Iron
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron null 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213s created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron 1qeqew created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer qe2455 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer as-213 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet en15 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Total power for Home is 1350
+------------------------------
+Power of Iron BOSH 1qeqew is between 120 and 260
+------------------------------
+Power of DVDPlayer PANASONIC as-213 is between 120 and 260
+------------------------------
+TvSet SONY en15 is turned ON
+------------------------------
+Washer PHILIPS qe2455 is turned ON
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron asd12 created
+------------------------------
+Creating object Cooker
+------------------------------
+Object Cooker VO23 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer AIO42 created
+------------------------------
+Creating object Microwave
+------------------------------
+Object Microwave mi90 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet tvb90 created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer tvb90 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Creating object Iron
+------------------------------
+Object Iron asd12 created
+------------------------------
+Creating object Cooker
+------------------------------
+Object Cooker VO23 created
+------------------------------
+Creating object DVDPlayer
+------------------------------
+Object DVDPlayer AIO42 created
+------------------------------
+Creating object Microwave
+------------------------------
+Object Microwave mi90 created
+------------------------------
+Creating object TvSet
+------------------------------
+Object TvSet tvb90 created
+------------------------------
+Creating object Washer
+------------------------------
+Object Washer tvb90 created
+------------------------------
+Creating object Home
+------------------------------
+Object Home created
+------------------------------
+Creating object Iron1432389994198
+------------------------------
+Object Iron asd12 created1432389994200
+------------------------------
+Creating object Cooker1432389994205
+------------------------------
+Object Cooker VO23 created1432389994206
+------------------------------
+Creating object DVDPlayer1432389994211
+------------------------------
+Object DVDPlayer AIO42 created1432389994212
+------------------------------
+Creating object Microwave1432389994215
+------------------------------
+Object Microwave mi90 created1432389994216
+------------------------------
+Creating object TvSet1432389994220
+------------------------------
+Object TvSet tvb90 created1432389994221
+------------------------------
+Creating object Washer1432389994224
+------------------------------
+Object Washer tvb90 created1432389994225
+------------------------------
+Creating object Home1432389994228
+------------------------------
+Object Home created1432389994229
+------------------------------
+Total power for all devices in home: Party House is 26001432389994231
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 2301432389994233
+------------------------------
+Creating object Iron 23.05.15
+------------------------------
+Object Iron asd12 created 23.05.15
+------------------------------
+Creating object Cooker 23.05.15
+------------------------------
+Object Cooker VO23 created 23.05.15
+------------------------------
+Creating object DVDPlayer 23.05.15
+------------------------------
+Object DVDPlayer AIO42 created 23.05.15
+------------------------------
+Creating object Microwave 23.05.15
+------------------------------
+Object Microwave mi90 created 23.05.15
+------------------------------
+Creating object TvSet 23.05.15
+------------------------------
+Object TvSet tvb90 created 23.05.15
+------------------------------
+Creating object Washer 23.05.15
+------------------------------
+Object Washer tvb90 created 23.05.15
+------------------------------
+Creating object Home 23.05.15
+------------------------------
+Object Home created 23.05.15
+------------------------------
+Total power for all devices in home: Party House is 2600 23.05.15
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230 23.05.15
+------------------------------
+Creating object Iron| TIME: 23.05.15 17:11:32
+------------------------------
+Object Iron asd12 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object Cooker| TIME: 23.05.15 17:11:32
+------------------------------
+Object Cooker VO23 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object DVDPlayer| TIME: 23.05.15 17:11:32
+------------------------------
+Object DVDPlayer AIO42 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object Microwave| TIME: 23.05.15 17:11:32
+------------------------------
+Object Microwave mi90 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object TvSet| TIME: 23.05.15 17:11:32
+------------------------------
+Object TvSet tvb90 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object Washer| TIME: 23.05.15 17:11:32
+------------------------------
+Object Washer tvb90 created| TIME: 23.05.15 17:11:32
+------------------------------
+Creating object Home| TIME: 23.05.15 17:11:32
+------------------------------
+Object Home created| TIME: 23.05.15 17:11:32
+------------------------------
+Total power for all devices in home: Party House is 2600| TIME: 23.05.15 17:11:32
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230| TIME: 23.05.15 17:11:32
+------------------------------
+PROGRAM STARTED | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object Iron | TIME: 23.05.15 17:14:06
+------------------------------
+Object Iron asd12 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object Cooker | TIME: 23.05.15 17:14:06
+------------------------------
+Object Cooker VO23 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object DVDPlayer | TIME: 23.05.15 17:14:06
+------------------------------
+Object DVDPlayer AIO42 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object Microwave | TIME: 23.05.15 17:14:06
+------------------------------
+Object Microwave mi90 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object TvSet | TIME: 23.05.15 17:14:06
+------------------------------
+Object TvSet tvb90 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object Washer | TIME: 23.05.15 17:14:06
+------------------------------
+Object Washer tvb90 created | TIME: 23.05.15 17:14:06
+------------------------------
+Creating object Home | TIME: 23.05.15 17:14:06
+------------------------------
+Object Home created | TIME: 23.05.15 17:14:06
+------------------------------
+Total power for all devices in home: Party House is 2600 | TIME: 23.05.15 17:14:06
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230 | TIME: 23.05.15 17:14:06
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object Iron | TIME: 23.05.15 18:01:59
+------------------------------
+Object Iron asd12 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object Cooker | TIME: 23.05.15 18:01:59
+------------------------------
+Object Cooker VO23 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object DVDPlayer | TIME: 23.05.15 18:01:59
+------------------------------
+Object DVDPlayer AIO42 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object Microwave | TIME: 23.05.15 18:01:59
+------------------------------
+Object Microwave mi90 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object TvSet | TIME: 23.05.15 18:01:59
+------------------------------
+Object TvSet tvb90 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object Washer | TIME: 23.05.15 18:01:59
+------------------------------
+Object Washer tvb90 created | TIME: 23.05.15 18:01:59
+------------------------------
+Creating object Home | TIME: 23.05.15 18:01:59
+------------------------------
+Object Home created | TIME: 23.05.15 18:01:59
+------------------------------
+Total power for all devices in home: Party House is 2600 | TIME: 23.05.15 18:01:59
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230 | TIME: 23.05.15 18:01:59
