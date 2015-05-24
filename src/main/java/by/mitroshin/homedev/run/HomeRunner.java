@@ -34,7 +34,7 @@ public class HomeRunner {
         try {
             Reporter.INSTANCE.printReport("\nPROGRAM STARTED\n");
         } catch (IOException e) {
-            LOG.error("Logic exception!!!", e);
+            LOG.error("IO exception!!!", e);
         }
     }
 
