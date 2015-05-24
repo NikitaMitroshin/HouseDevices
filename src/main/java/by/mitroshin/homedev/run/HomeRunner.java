@@ -70,7 +70,7 @@ public class HomeRunner {
         } catch (LogicException e) {
             LOG.error("Logic exception!!!", e);
         } catch (IOException e) {
-            LOG.error("Logic exception!!!", e);
+            LOG.error("IO exception!!!", e);
         }
     }
 }
