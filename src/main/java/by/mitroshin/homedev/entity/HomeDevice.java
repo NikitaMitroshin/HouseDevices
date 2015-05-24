@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * Created by HP M6 on 20.05.2015.
  */
-public abstract class AbstractHomeDevice {
+public abstract class HomeDevice {
         protected Manufacturer manufacturer;
         protected Name name;
         protected int power;
@@ -73,8 +73,8 @@ public abstract class AbstractHomeDevice {
                 this.appointment = appointment;
         }
 
-        public AbstractHomeDevice(Manufacturer manufacturer, int power, String model, Type type) throws LogicException, IOException {
-                Reporter.REPORTER.printReport("Creating object " + getClass().getSimpleName());
+        public HomeDevice(Manufacturer manufacturer, int power, String model, Type type) throws LogicException, IOException {
+                Reporter.INSTANCE.printReport("Creating object " + getClass().getSimpleName());
                 if(manufacturer != null) {
                         this.manufacturer = manufacturer;
                 }else {
@@ -96,7 +96,7 @@ public abstract class AbstractHomeDevice {
                         throw new LogicException(type + " is incorrect, type cant be null");
                 }
                 this.turnedOn = false;
-                Reporter.REPORTER.printReport("Object " + getClass().getSimpleName() + " " + getModel() + " created");
+                Reporter.INSTANCE.printReport("Object " + getClass().getSimpleName() + " " + getModel() + " created");
         }
 
         @Override
@@ -104,7 +104,7 @@ public abstract class AbstractHomeDevice {
                 if (this == o) return true;
                 if (o == null || getClass() != o.getClass()) return false;
 
-                AbstractHomeDevice that = (AbstractHomeDevice) o;
+                HomeDevice that = (HomeDevice) o;
 
                 if (power != that.power) return false;
                 if (turnedOn != that.turnedOn) return false;

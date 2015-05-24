@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by HP M6 on 22.05.2015.
  */
-public abstract class KitchenDevice extends AbstractHomeDevice {
+public abstract class KitchenDevice extends HomeDevice {
 
     public KitchenDevice(Manufacturer manufacturer, int power, String model, Type type) throws LogicException, IOException {
         super(manufacturer, power, model, type);

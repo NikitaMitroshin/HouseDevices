@@ -817,3 +817,144 @@ Object Home created | TIME: 23.05.15 18:01:59
 Total power for all devices in home: Party House is 2600 | TIME: 23.05.15 18:01:59
 ------------------------------
 Power of IRON BOSH asd12 is between 120 and 230 | TIME: 23.05.15 18:01:59
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object Iron | TIME: 23.05.15 21:30:51
+------------------------------
+Object Iron asd12 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object Cooker | TIME: 23.05.15 21:30:51
+------------------------------
+Object Cooker VO23 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object DVDPlayer | TIME: 23.05.15 21:30:51
+------------------------------
+Object DVDPlayer AIO42 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object Microwave | TIME: 23.05.15 21:30:51
+------------------------------
+Object Microwave mi90 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object TvSet | TIME: 23.05.15 21:30:51
+------------------------------
+Object TvSet tvb90 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object Washer | TIME: 23.05.15 21:30:51
+------------------------------
+Object Washer tvb90 created | TIME: 23.05.15 21:30:51
+------------------------------
+Creating object Home | TIME: 23.05.15 21:30:51
+------------------------------
+Object Home created | TIME: 23.05.15 21:30:51
+------------------------------
+Total power for all devices in home: Party House is 2600 | TIME: 23.05.15 21:30:51
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230 | TIME: 23.05.15 21:30:51
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object Iron | TIME: 24.05.15 12:02:11
+------------------------------
+Object Iron asd12 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object Cooker | TIME: 24.05.15 12:02:11
+------------------------------
+Object Cooker VO23 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object DVDPlayer | TIME: 24.05.15 12:02:11
+------------------------------
+Object DVDPlayer AIO42 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object Microwave | TIME: 24.05.15 12:02:11
+------------------------------
+Object Microwave mi90 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object TvSet | TIME: 24.05.15 12:02:11
+------------------------------
+Object TvSet tvb90 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object Washer | TIME: 24.05.15 12:02:11
+------------------------------
+Object Washer tvb90 created | TIME: 24.05.15 12:02:11
+------------------------------
+Creating object Home | TIME: 24.05.15 12:02:11
+------------------------------
+Object Home created | TIME: 24.05.15 12:02:11
+------------------------------
+Total power for all devices in home: Party House is 2600 | TIME: 24.05.15 12:02:11
+------------------------------
+Power of IRON BOSH asd12 is between 120 and 230 | TIME: 24.05.15 12:02:11
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 24.05.15 13:34:47
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 24.05.15 13:43:31
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 24.05.15 15:08:14
+------------------------------
+Creating object Iron | TIME: 24.05.15 15:08:14
+------------------------------
+Object Iron asd12 created | TIME: 24.05.15 15:08:14
+------------------------------
+Creating object Washer | TIME: 24.05.15 15:08:14
+------------------------------
+Object Washer QS584 created | TIME: 24.05.15 15:08:14
+------------------------------
+Creating object TvSet | TIME: 24.05.15 15:08:14
+------------------------------
+Object TvSet ls9900 created | TIME: 24.05.15 15:08:14
+------------------------------
+
+PROGRAM STARTED
+ | TIME: 24.05.15 15:08:48
+------------------------------
+Creating object Iron | TIME: 24.05.15 15:08:49
+------------------------------
+Object Iron asd12 created | TIME: 24.05.15 15:08:49
+------------------------------
+Creating object Washer | TIME: 24.05.15 15:08:49
+------------------------------
+Object Washer QS584 created | TIME: 24.05.15 15:08:49
+------------------------------
+Creating object TvSet | TIME: 24.05.15 15:08:49
+------------------------------
+Object TvSet ls9900 created | TIME: 24.05.15 15:08:49
+------------------------------
+Creating object DVDPlayer | TIME: 24.05.15 15:08:49
+------------------------------
+Object DVDPlayer doo882 created | TIME: 24.05.15 15:08:49
+------------------------------
+Creating object Cooker | TIME: 24.05.15 15:08:49
+------------------------------
+Object Cooker cook9000 created | TIME: 24.05.15 15:08:49
+------------------------------
+Creating object Home | TIME: 24.05.15 15:08:49
+------------------------------
+Object Home created | TIME: 24.05.15 15:08:49
+------------------------------
+Devices was sorted by SortByPower | TIME: 24.05.15 15:08:49
+------------------------------
+TV_SET SONY ls9900 is turned ON | TIME: 24.05.15 15:08:49
+------------------------------
+WASHER PHILIPS QS584 is turned ON | TIME: 24.05.15 15:08:49
+------------------------------
+Power of DVD_PLAYER PANASONIC doo882 is between 123 and 250 | TIME: 24.05.15 15:08:49
+------------------------------
+Power of IRON BOSH asd12 is between 123 and 250 | TIME: 24.05.15 15:08:49
+------------------------------
+Total power for all devices in home: Party House is 2350 | TIME: 24.05.15 15:08:49
+------------------------------
+Party House have 
+Washer{manufacturer = PHILIPS, name = WASHER, power = 700, model = QS584, turnedOn = true, appointment = CLOTHES, LoadingType = FRONT} ? true | TIME: 24.05.15 15:08:49
+------------------------------
+IRON asd12 manufacturer is BOSH | TIME: 24.05.15 15:08:49

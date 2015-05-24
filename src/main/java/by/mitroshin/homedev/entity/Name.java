@@ -9,5 +9,6 @@ public enum Name {
     DVD_PLAYER,
     TV_SET,
     MICROWAVE,
+    COOKER;
 
 }

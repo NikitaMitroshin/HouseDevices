@@ -13,7 +13,7 @@ import java.util.List;
  * Created by HP M6 on 21.05.2015.
  */
 public class Home {
-    private ArrayList<AbstractHomeDevice> devices;
+    private List<HomeDevice> devices;
     private String name;
 
     public String getName() {
@@ -24,27 +24,28 @@ public class Home {
         this.name = name;
     }
 
-    public Home(String name, ArrayList<AbstractHomeDevice> devices) throws IOException, LogicException {
-        Reporter.REPORTER.printReport("Creating object " + getClass().getSimpleName());
+    public Home(String name, List<HomeDevice> devices) throws IOException, LogicException {
+        Reporter.INSTANCE.printReport("Creating object " + getClass().getSimpleName());
         if(name != null && name.length() > 3){
             this.name = name;
         }else {
             throw new LogicException(name + " is incorrect, name length be more than 3");
         }
         this.devices = devices;
-        Reporter.REPORTER.printReport("Object " + getClass().getSimpleName() + " created");
+        Reporter.INSTANCE.printReport("Object " + getClass().getSimpleName() + " created");
     }
 
-    public List<AbstractHomeDevice> getDevices() {
+    public List<HomeDevice> getDevices() {
         return Collections.unmodifiableList(devices);
     }
 
-    public void addDevice(AbstractHomeDevice device){
+    public void addDevice(HomeDevice device){
         this.devices.add(device);
     }
 
-    public void sort(Comparator<? super AbstractHomeDevice> c) {
+    public void sort(Comparator<? super HomeDevice> c) throws IOException {
         devices.sort(c);
+        Reporter.INSTANCE.printReport("Devices was sorted by "+c.getClass().getSimpleName());
     }
 
     @Override

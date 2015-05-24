@@ -12,7 +12,6 @@ import java.io.IOException;
  */
 public class Washer extends ClothesDevice {
 
-
     public Washer(Manufacturer manufacturer, int power, String model, LoadingType loadingType) throws LogicException, IOException {
         super(manufacturer, power, model, loadingType);
         name = Name.WASHER;

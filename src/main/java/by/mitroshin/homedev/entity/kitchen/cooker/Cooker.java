@@ -2,6 +2,7 @@ package by.mitroshin.homedev.entity.kitchen.cooker;
 
 import by.mitroshin.homedev.entity.LogicException;
 import by.mitroshin.homedev.entity.Manufacturer;
+import by.mitroshin.homedev.entity.Name;
 import by.mitroshin.homedev.entity.kitchen.KitchenDevice;
 
 import java.io.IOException;
@@ -12,5 +13,6 @@ import java.io.IOException;
 public class Cooker extends KitchenDevice {
     public Cooker(Manufacturer manufacturer, int power, String model, CooktopType cooktopType) throws LogicException, IOException {
         super(manufacturer, power, model, cooktopType);
+        name = Name.COOKER;
     }
 }
