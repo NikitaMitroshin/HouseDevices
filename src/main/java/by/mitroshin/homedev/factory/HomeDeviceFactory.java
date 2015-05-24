@@ -23,9 +23,6 @@ import java.io.IOException;
  */
 public class HomeDeviceFactory {
 
-    private HomeDeviceFactory(){
-    }
-
     public static HomeDevice createHomeDevie(Name name, Manufacturer manufacturer, int power, String model, Type type) throws IOException, LogicException {
         try {
             switch (name) {
